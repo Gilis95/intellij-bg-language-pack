@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>su.bg.language-pack</id>
+    <name>Bulgarian Language Pack — Български езиков пакет</name>
+    <version>1.0.0</version>
+    <vendor email="christian.yotov@protonmail.com" url="https://gitflic.ru/project/russky/rus-jetbrains">Разработчик на езиковия пакет</vendor>
+    <description><![CDATA[
+      Russian Language Pack for JetBrains products.
+
+      Български езиков пакет за средата JetBrains, включва IntelliJ IDEA, PhpStorm, WebStorm и другие.
+      Переводен интерфейс среда разработка на български език: меню, подсказки и настройки.
+      Разширението е напълно безплатно и създадено с цел удобство на българските разработчици.
+    ]]></description>
+    <icon>pluginIcon.svg</icon>
+    <idea-version since-build="231.0" />
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <languageBundle locale="bg-BG"/>
+    </extensions>
+</idea-plugin>
